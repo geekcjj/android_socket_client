@@ -14,7 +14,7 @@
         android:layout_height="50dp"
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="176.126.71.162"
+        android:text="120.27.119.115"
         android:id="@+id/textID"
  />
 
@@ -28,11 +28,15 @@
         android:layout_toEndOf="@+id/textID" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/textShow"
-        android:hint="信息显示区域"
+        android:maxLines="9"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+
+        android:hint="信息显示区域,长按清空所有内容"
         android:layout_marginTop="58dp"
         android:layout_below="@+id/textID"
         android:layout_alignParentLeft="true"
